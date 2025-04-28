@@ -1,0 +1,1473 @@
+<!DOCTYPE html><html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UI Portfolio - Personal Category Bootstrap Responsive Website Template - Home : W3Layouts</title>
+
+    <!-- google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- //google-fonts -->
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="css/style-liberty.css">
+
+</head>
+
+<body>
+
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-98H8KRKT85');
+</script>
+
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Theme styles */
+:root {
+  --text-color: #000000;
+  --section-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --text-color: #ffffff;
+  --section-bg: #2d2d2d;
+}
+
+body {
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+section {
+  background-color: var(--section-bg);
+  transition: all 0.3s ease;
+}
+
+.nav-item.active .nav-link {
+  color: black !important;
+}
+
+.nav-item.active .nav-link:hover {
+  color: white !important;
+}
+
+/* Demo bar styles */
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  display: none;
+}
+
+#w3lDemoBar.w3l-demo-bar.visible {
+  display: block; /* Show when visible class is added */
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-text {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  padding: 0.8rem 0;
+}
+
+#w3lDemoBar.w3l-demo-bar .demo-btns span {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#w3lDemoBar.w3l-demo-bar .demo-btns span:hover {
+  transform: scale(1.1);
+}
+
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+}
+
+/* Certification badges styles */
+.certification-badges {
+    background-color: #3B7B6A;
+    padding: 2rem 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.certification-badges .slider {
+    display: flex;
+    width: calc(150px * 8);
+    animation: scroll 20s linear infinite;
+}
+
+.certification-badges .slide {
+    width: 150px;
+    margin: 0 2rem;
+}
+
+.certification-badges img {
+    max-width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    opacity: 0.95;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-150px * 4));
+    }
+}
+
+/* Remove old styles */
+.left-certification-badges {
+    display: none;
+}
+
+/* Adjust spacing for the brands section */
+.w3l-brands {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Contact Form Popup Styles */
+.contact-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: var(--section-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+.contact-form h3 {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: var(--section-bg);
+    color: var(--text-color);
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #3B7B6A;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2d5d50;
+}
+
+.close-popup {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.close-popup:hover {
+    color: #3B7B6A;
+}
+
+/* Search Overlay Styles */
+.search-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+}
+
+.search-container {
+    position: relative;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background: var(--section-bg);
+    color: var(--text-color);
+}
+
+.search-results {
+    margin-top: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+    background: var(--section-bg);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.search-result-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.search-result-item h4 {
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.search-result-item p {
+    color: var(--text-color);
+    opacity: 0.8;
+    margin: 0;
+}
+
+.close-search {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.no-results {
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+</style>
+<div class="pull-right toggle-right-sidebar">
+<span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+</div>
+
+<div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+<div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+
+    <div id="w3lDemoBar" class="w3l-demo-bar">
+        <div class="demo-btns">
+            <span class="w3l-icon -back">
+                <span class="fa fa-arrow-left"></span>
+            </span>
+            <span class="w3l-text">Back</span>
+
+            <span class="w3l-icon -download">
+                <span class="fa fa-download"></span>
+            </span>
+            <span class="w3l-text">Download</span>
+
+            <span class="w3l-icon -buy">
+                <span class="fa fa-shopping-cart"></span>
+            </span>
+            <span class="w3l-text">Buy</span>
+        </div>
+    </div>
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003" style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+
+
+
+
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fab fa-asymmetrik"></i> UI Portfolio
+                    </a>
+                </h1>
+                <button class="navbar-toggler collapsed bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-lg-auto align-items-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog <i class="fas fa-angle-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pages">Pages <i class="fas fa-angle-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary" href="#hire-me">Hire Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#search"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#theme-toggle"><i class="fas fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+
+
+
+    <!-- banner section -->
+    <section id="home" class="w3l-banner pt-5">
+        <div class="container pt-lg-5 pt-md-4">
+            <div class="row pt-lg-5 pt-4">
+                <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5">
+                    <h1 class="mb-3">Hi, I'm John Watson</h1>
+                    <h3 class="mb-4"> <span class="typed-text"></span><span class="cursor">�</span> </h3>
+                    <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can
+                        give your business a new Creative start right away!</p>
+                    
+                    <a class="btn btn-primary btn-style mt-5 me-2" href="#hire-me"> Hire Me </a>
+                    <a class="btn btn-style transparent-btn mt-5" href="#portfolio"> My Portfolio </a>
+                    
+                </div>
+                <div class="col-lg-5 text-lg-end my-image mt-lg-0 mt-4">
+                    <img src="images/banner.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner section -->
+
+
+    <!-- About Section-->
+     
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="images/about.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">My Biography</h6>
+                    <h3 class="w3l-title-main mb-2">A Lead UI Designer & Web Developer based in UK</h3>
+                    <p class="my-4 pe-lg-5">I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+                    <div class="my-info mt-4">
+                        <div class="single-info"><span>Name:</span>
+                            <p>John Watson</p>
+                        </div>
+                        <div class="single-info"><span>From:</span>
+                            <p>London, UK</p>
+                        </div>
+                        <div class="single-info"><span>Email:</span>
+                            <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </div>
+                        <div class="single-info"><span>Phone:</span>
+                            <p><a href="tel:+21 234 567 8901">+21 234 567 8901</a></p>
+                        </div>
+                    </div>
+                    <ul class="follow-social mt-lg-5 mt-4">
+                        <li>
+                            <h5 class="me-md-3">Follow me on </h5>
+                        </li>
+                        <li><a href="https://in.linkedin.com/company/w3layouts"><span class="fab fa-behance"></span></a>
+                        </li>
+
+                        <li><a href="https://in.linkedin.com/company/w3layouts"><span class="fab fa-linkedin-in"></span></a>
+                        </li>
+
+                        <li><a href="https://www.facebook.com/w3layouts/">
+                                <span class="fab fa-facebook-f"></span></a></li>
+
+                        <li><a href="https://twitter.com/W3layouts"><span class="fab fa-twitter"></span></a></li>
+
+                    </ul>
+                    <div class="w3l-btn">
+                        <a href="#portfolio" class="btn btn-style btn-primary mt-lg-5 mt-4 me-md-2">View Portfolio</a>
+                        <a href="#download-cv" class="btn btn-style btn-secondary mt-lg-5 mt-4">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //About Section-->
+
+
+    <!-- Services Section -->
+    <section class="about-section py-5" id="services">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4">
+                <h3 class="w3l-title-main">What I do for you</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="about-single">
+                        <div class="about-icon mb-4">
+                            <i class="fas fa-chalkboard"></i>
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#url">Web Development</a></h5>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
+                                laudan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                    <div class="about-single">
+                        <div class="about-icon mb-4">
+                            <i class="fab fa-app-store"></i>
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#url">App development</a></h5>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
+                                laudan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-3">
+                    <div class="about-single">
+                        <div class="about-icon mb-4">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#url">Photography</a></h5>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
+                                laudan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3l-btn text-center">
+                <a href="#skills" class="btn btn-border mt-lg-5 mt-4 me-2">
+                    More services <span class="fas fa-long-arrow-alt-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- //Services Section -->
+
+
+
+
+
+    <section class="w3l-skills py-5" id="skills">
+    <div class="container py-lg-5 py-md-4 py-3">
+        <div class="row">
+            <div class="col-lg-6 pe-lg-5">
+                <img src="images/about1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5 w3l-content-6 px-lg-4 align-self-center">
+                <h6 class="w3l-title-small mb-2">My skills</h6>
+                <h3 class="w3l-title-main">My Featured skills</h3>
+                <p class="mt-4">I Specialize in Branding and Strategy, and am passionate about creating Awesome
+                    Portfolio work. And I always ready to impress the audience with my Creativity. </p>
+                <div class="progress-info mt-5">
+                    <h6 class="progress-tittle">UI/UX Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <h6 class="progress-tittle">Ideas & Technology</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <h6 class="progress-tittle">Branding Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-info mb-0">
+                    <h6 class="progress-tittle">Responsive Web Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Why Choose Us Section-->
+    <section class="w3l-whychooseus pt-5" id="about1">
+        <div class="container pt-lg-0 pt-md-4 pt-2">
+            <div class="row align-items-center">
+                <div class="col-lg-7 pe-lg-5 align-items-center">
+                    <div class="row two-grids">
+                        <div class="col-sm-6 grids_info d-flex">
+                            <i class="fab fa-wordpress-simple"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">Web Development</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                            <i class="fab fa-css3-alt"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">Design Trends</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">Research & Analysis</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-headset"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">Customer support</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">Responsive design</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-layer-group"></i>
+                            <div class="detail ms-3">
+                                <h4 class="w3l-subtitle">PSD Design</h4>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ps-lg-5 my-image mt-lg-0 mt-4">
+                    <img src="images/banner.png" alt="" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- //Why Choose Us Section-->
+
+
+
+    
+    <!-- Stats Section-->
+    <section class="w3l-stats-section py-5" id="stats">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="w3l-stats-inner-inf py-lg-4">
+                <div class="row stats-con text-center">
+                    <div class="col-lg-3 col-6 stats_info counter_grid">
+                        <p class="counter" data-target="135">0</p>
+                        <h3>Finished Projects</h3>
+                    </div>
+                    <div class="col-lg-3 col-6 stats_info counter_grid">
+                        <p class="counter" data-target="225">0</p>
+                        <h3>Working Hours</h3>
+                    </div>
+                    <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-sm-5 mt-5">
+                        <p class="counter" data-target="115">0</p>
+                        <h3>Online Support</h3>
+                    </div>
+                    <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-sm-5 mt-5">
+                        <p class="counter" data-target="272">0</p>
+                        <h3>Happy Customers</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Stats Section-->
+
+
+    <!-- portfolio -->
+    <section class="w3-gallery py-5" id="portfolio">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4">
+                <h3 class="w3l-title-main mb-2">My Success Work</h3>
+            </div>
+            <div class="row portfolio-area clearfix p-0 m-0">
+                <div class="col-lg-4 col-md-6 portfolio-item2 content" data-id="id-1" data-type="cat-item-1">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog1.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog1.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Architecture</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-md-0 mt-4" data-id="id-2" data-type="cat-item-2">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog2.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog2.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Corporate</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-lg-0 mt-4" data-id="id-3" data-type="cat-item-3">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog3.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog3.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Ecommerce</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-4" data-type="cat-item-4">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog4.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog4.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Mobile UI</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-5" data-type="cat-item-5">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog5.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog5.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Fashion</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-7" data-type="cat-item-6">
+                    <span class="image-block">
+                        <a class="image-zoom" href="assets/images/blog6.jpg" data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="images/blog6.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Real Estate </h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <!--end portfolio-area -->
+        </div>
+        <!-- //gallery container -->
+    </section>
+    <!-- //portfolio -->
+
+    <!-- certification badges section -->
+    <section class="certification-badges">
+        <div class="slider">
+            <!-- First set of images -->
+            <div class="slide">
+                <img src="images/logo1.png" alt="100% Gluten Free" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo2.png" alt="Massage & Spa" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo3.png" alt="Butchery" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo4.png" alt="Natural" class="img-fluid">
+            </div>
+            <!-- Duplicate set for seamless scrolling -->
+            <div class="slide">
+                <img src="images/logo1.png" alt="100% Gluten Free" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo2.png" alt="Massage & Spa" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo3.png" alt="Butchery" class="img-fluid">
+            </div>
+            <div class="slide">
+                <img src="images/logo4.png" alt="Natural" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <!-- //certification badges section -->
+
+    <!--/brands-->
+    <section class="w3l-brands">
+        <div class="container">
+            <div class="align-items-center">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/logo1.png" class="img-fluid" alt="Brand">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo2.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo3.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo4.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo5.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo1.png" class="img-fluid" alt="Brand">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo2.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo3.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/logo4.png" class="img-fluid" alt="Brand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //brands -->
+
+
+
+     <!-- footer -->
+     <footer class="text-center">
+        <div class="footer py-5">
+            <div class="container py-md-4">
+                <div clss="footer-logo">
+                    <a class="logo" href="index.html">
+                        <i class="fab fa-asymmetrik"></i> UI Portfolio
+                    </a>
+                </div>
+                <div class="footer-contact-info mt-4">
+                    <ul>
+                        <li>
+                            <a href="tel:+12 345 678 900" class="contact-text-sub">
+                                <span class="fas fa-phone me-2"></span>+12 345 678 900</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@example.com" class="contact-text-sub">
+                                <span class="fas fa-envelope me-2"></span>info@example.com</a>
+                        </li>
+                        <li>
+                            <p class="contact-text-sub"> 
+                                <span class="fas fa-map-marker me-2"></span>208 Avenue street, UK - 62617.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="row footer-grids">
+                <div class="col-lg-6 copyright text-lg-start text-center align-center">
+                    <p>© 2022 UI Portfolio. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-6 text-lg-end text-center mt-lg-0 mt-4">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#url"><span class="fab me-2 fa-facebook-f"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-twitter"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-google-plus"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-pinterest"></span></a></li>
+                            <li><a href="#url"><span class="fab me-2 fa-vk"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+
+    <!-- //brands-->
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    568: {
+                        items: 3,
+                        nav: false
+                    },
+                    768: {
+                        items: 4,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //brands-->
+
+    <!-- /typig-text-->
+    <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["Web Designer", "Web Developer", "Photographer", "Freelancer"];
+        const typingDelay = 200;
+        const erasingDelay = 10;
+        const newTextDelay = 100; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                // add class 'typing' if there's none
+                if (!cursorSpan.classList.contains("typing")) {
+                    cursorSpan.classList.add("typing");
+                }
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+    <!-- //typig-text-->
+
+
+    <!-- jQuery-Photo-filter-lightbox-portfolio-plugin -->
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.quicksand.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+
+
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'935f65976a2f0b89',t:'MTc0NTYwMDQyOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+
+    <script>
+        // Counter Animation
+        const counters = document.querySelectorAll('.counter');
+        const statsSection = document.querySelector('#stats');
+        let hasAnimated = false;
+
+        function animateCounters() {
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const increment = target / 100; // Adjust speed by changing the divisor
+
+                let count = 0;
+                const updateCounter = () => {
+                    count += increment;
+                    if (count < target) {
+                        counter.textContent = Math.ceil(count);
+                        setTimeout(updateCounter, 20); // Adjust speed by changing the timeout
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                updateCounter();
+            });
+        }
+
+        // Use Intersection Observer to trigger animation when the section is in view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !hasAnimated) {
+                    hasAnimated = true;
+                    animateCounters();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        observer.observe(statsSection);
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const blogLinks = document.querySelectorAll(".dropdown-item");
+
+            blogLinks.forEach(link => {
+                link.addEventListener("click", () => {
+                    // Remove 'active' class from all links
+                    blogLinks.forEach(item => item.classList.remove("active"));
+
+                    // Add 'active' class to the clicked link
+                    link.classList.add("active");
+                });
+            });
+        });
+    </script>
+
+    <!-- Add this right before the closing </body> tag -->
+    <script>
+    // Theme toggle functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggle = document.querySelector('a[href="#theme-toggle"]');
+      const themeIcon = themeToggle.querySelector('i');
+      const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+      
+      // Check for saved theme preference or use system preference
+      const currentTheme = localStorage.getItem('theme') || 
+        (prefersDarkScheme.matches ? 'dark' : 'light');
+      
+      // Set initial theme
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      updateThemeIcon(currentTheme);
+      
+      // Theme toggle click handler
+      themeToggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const newTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+      });
+      
+      // Update theme icon based on current theme
+      function updateThemeIcon(theme) {
+        if (theme === 'dark') {
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+        } else {
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+        }
+      }
+    });
+    </script>
+
+    <!-- Add this right before the closing </body> tag -->
+    <script>
+    // Search functionality
+    const searchableContent = {
+        'home': {
+            title: 'Home',
+            content: document.querySelector('#home')?.textContent || '',
+            link: '#home'
+        },
+        'about': {
+            title: 'About Me',
+            content: document.querySelector('#about')?.textContent || '',
+            link: '#about'
+        },
+        'services': {
+            title: 'Services',
+            content: document.querySelector('#services')?.textContent || '',
+            link: '#services'
+        },
+        'skills': {
+            title: 'Skills',
+            content: document.querySelector('#skills')?.textContent || '',
+            link: '#skills'
+        },
+        'portfolio': {
+            title: 'Portfolio',
+            content: document.querySelector('#portfolio')?.textContent || '',
+            link: '#portfolio'
+        }
+    };
+
+    function openSearch() {
+        document.getElementById('searchOverlay').style.display = 'block';
+        document.getElementById('searchInput').focus();
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeSearch() {
+        document.getElementById('searchOverlay').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    function performSearch() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const resultsContainer = document.getElementById('searchResults');
+        resultsContainer.innerHTML = '';
+
+        if (searchTerm.length < 2) {
+            resultsContainer.innerHTML = '<div class="no-results">Type at least 2 characters to search</div>';
+            return;
+        }
+
+        let results = [];
+        
+        for (const [key, section] of Object.entries(searchableContent)) {
+            if (section.content.toLowerCase().includes(searchTerm) || 
+                section.title.toLowerCase().includes(searchTerm)) {
+                results.push({
+                    title: section.title,
+                    content: findSnippet(section.content, searchTerm),
+                    link: section.link
+                });
+            }
+        }
+
+        if (results.length === 0) {
+            resultsContainer.innerHTML = '<div class="no-results">No results found</div>';
+            return;
+        }
+
+        results.forEach(result => {
+            const resultElement = document.createElement('div');
+            resultElement.className = 'search-result-item';
+            resultElement.innerHTML = `
+                <h4><a href="${result.link}" onclick="closeSearch()">${result.title}</a></h4>
+                <p>${result.content}</p>
+            `;
+            resultsContainer.appendChild(resultElement);
+        });
+    }
+
+    function findSnippet(content, searchTerm) {
+        const words = content.split(' ');
+        const searchIndex = words.findIndex(word => 
+            word.toLowerCase().includes(searchTerm)
+        );
+        
+        if (searchIndex === -1) return '';
+        
+        const start = Math.max(0, searchIndex - 5);
+        const end = Math.min(words.length, searchIndex + 6);
+        const snippet = words.slice(start, end).join(' ');
+        
+        return start > 0 ? '...' + snippet + '...' : snippet + '...';
+    }
+
+    // Update search icon click handler
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchIcon = document.querySelector('a[href="#search"]');
+        if (searchIcon) {
+            searchIcon.addEventListener('click', function(e) {
+                e.preventDefault();
+                openSearch();
+            });
+        }
+    });
+
+    // Close search on escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && document.getElementById('searchOverlay').style.display === 'block') {
+            closeSearch();
+        }
+    });
+
+    // Close search when clicking outside the search container
+    document.getElementById('searchOverlay').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeSearch();
+        }
+    });
+    </script>
+
+    <!-- Add this right before the closing </body> tag -->
+    <script>
+    // Demo bar visibility control
+    document.addEventListener('DOMContentLoaded', () => {
+      const demoBar = document.getElementById('w3lDemoBar');
+      const sections = document.querySelectorAll('section');
+      
+      function checkVisibility() {
+        const homeSection = document.getElementById('home');
+        if (homeSection) {
+          const homeBounds = homeSection.getBoundingClientRect();
+          if (homeBounds.top <= 0 && homeBounds.bottom > 0) {
+            demoBar.classList.add('visible');
+          } else {
+            demoBar.classList.remove('visible');
+          }
+        }
+      }
+
+      // Check on scroll
+      window.addEventListener('scroll', checkVisibility);
+      
+      // Initial check
+      checkVisibility();
+    });
+    </script>
+
+    <!-- Contact Form Popup -->
+    <div class="contact-popup" id="contactPopup">
+        <div class="contact-form">
+            <button class="close-popup" onclick="closeContactForm()">&times;</button>
+            <h3>Contact Me</h3>
+            <form id="contactForm" onsubmit="submitContactForm(event)">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+    // Contact Form Functions
+    function openContactForm() {
+        document.getElementById('contactPopup').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeContactForm() {
+        document.getElementById('contactPopup').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    function submitContactForm(event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        // Here you would typically send this data to your server
+        console.log('Form submitted:', { name, email, message });
+        
+        // Clear form
+        document.getElementById('contactForm').reset();
+        
+        // Close popup
+        closeContactForm();
+        
+        // Show success message
+        alert('Thank you for your message! I will get back to you soon.');
+    }
+
+    // Close popup if clicking outside the form
+    document.getElementById('contactPopup').addEventListener('click', function(event) {
+        if (event.target === this) {
+            closeContactForm();
+        }
+    });
+
+    // Update contact link to open popup
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactLink = document.querySelector('a[href="#contact"]');
+        if (contactLink) {
+            contactLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                openContactForm();
+            });
+        }
+    });
+    </script>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <button class="close-search" onclick="closeSearch()">&times;</button>
+            <input type="text" class="search-box" id="searchInput" placeholder="Type to search..." onkeyup="performSearch()">
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
+
+</body>
+</html>
