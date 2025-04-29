@@ -32413,3 +32413,26 @@ pre {
 .w3l-brands {
   background: #397f6a;
 }
+
+.social ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing here */
+}
+
+.social-icon {
+  display: inline-block;
+  font-size: 20px; /* Size of the icons */
+  color: #333; /* Default color */
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Color on hover */
+  transform: scale(1.2); /* Slight zoom on hover */
+}

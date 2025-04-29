@@ -11,6 +11,7 @@
 
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="css/style-liberty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
@@ -946,34 +947,8 @@ RIGHT SIDEBAR TOGGLE SECTION
         </div>
     </section>
     <!-- //certification badges section -->
-
-    <!--/brands-->
-    <section class="w3l-brands">
-        <div class="container">
-            <div class="brand-slider">
-                <div class="brand-slide">
-                    <img src="images/logo1.png" class="img-fluid" alt="Brand">
-                </div>
-                <div class="brand-slide">
-                    <img src="images/logo2.png" class="img-fluid" alt="Brand">
-                </div>
-                <div class="brand-slide">
-                    <img src="images/logo3.png" class="img-fluid" alt="Brand">
-                </div>
-                <div class="brand-slide">
-                    <img src="images/logo4.png" class="img-fluid" alt="Brand">
-                </div>
-                <div class="brand-slide">
-                    <img src="images/logo5.png" class="img-fluid" alt="Brand">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //brands -->
-
-
-
-     <!-- footer -->
+     
+    <!-- footer -->
      <footer class="text-center">
         <div class="footer py-5">
             <div class="container py-md-4">
@@ -1000,34 +975,69 @@ RIGHT SIDEBAR TOGGLE SECTION
                 </div>
             </div>
         </div>
+        
         <div class="container py-4">
             <div class="row footer-grids">
                 <div class="col-lg-6 copyright text-lg-start text-center align-center">
                     <p>© 2022 UI Portfolio. All Rights Reserved</p>
                 </div>
+        
+                
+                
                 <div class="col-lg-6 text-lg-end text-center mt-lg-0 mt-4">
                     <div class="social">
-                        <ul>
-                            <li><a href="#url"><span class="fab me-2 fa-facebook-f"></span></a></li>
-                            <li><a href="#url"><span class="fab me-2 fa-twitter"></span></a></li>
-                            <li><a href="#url"><span class="fab me-2 fa-google-plus"></span></a></li>
-                            <li><a href="#url"><span class="fab me-2 fa-pinterest"></span></a></li>
-                            <li><a href="#url"><span class="fab me-2 fa-vk"></span></a></li>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#url" class="social-icon">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#url" class="social-icon">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#url" class="social-icon">
+                                    <span class="fab fa-google-plus"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#url" class="social-icon">
+                                    <span class="fab fa-pinterest"></span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#url" class="social-icon">
+                                    <span class="fab fa-vk"></span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
+                
             </div>
         </div>
     </footer>
-    <!-- //footer -->
-
-
-
-    <!-- Js scripts -->
+    
     <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
+    <button onclick="topFunction()" id="movetop" title="Go to top" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 1000; background-color: #3B7B6A; color: white; border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer;">
         <span class="fas fa-level-up-alt" aria-hidden="true"></span>
     </button>
+    <script>
+        const moveTopButton = document.getElementById('movetop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                moveTopButton.style.display = 'block';
+            } else {
+                moveTopButton.style.display = 'none';
+            }
+        });
+
+        function topFunction() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 
     <!-- //brands-->
     <script>
